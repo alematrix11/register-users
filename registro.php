@@ -22,36 +22,17 @@
     <form action="usuario.php" method="POST">
     
         <label for="nombre"></label>
-        <input class="ml-3" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+        <input class="ml-3" type="text" name="nombreUsuario" id="nombre" size="34" placeholder="Ingresa tu nombre">
         <br><br>
         <label for="pass"></label>
-        <input class="ml-3" type="password" name="pass" id="pass" placeholder="Ingresa tu contraseña">
+        <input class="ml-3" type="password" name="passUsuario" id="pass" size="34" placeholder="Ingresa tu contraseña">
         <br><br>
         <label for="pass2"></label>
-        <input class="ml-3" type="password" name="pass2" id="pass2" placeholder="Nuevamente tu contraseña">
+        <input class="ml-3" type="password" name="pass2Usuario" id="pass2" size="34" placeholder="Nuevamente tu contraseña">
         <br><br>
         <button class="ml-4" type="submit">Guardar</button>
         
     </form>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
