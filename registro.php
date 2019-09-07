@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
 <head>
       
@@ -33,8 +33,6 @@
         <button class="ml-4" type="submit">Guardar</button>
         
     </form>
-    
-    
     
     
     
