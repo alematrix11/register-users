@@ -34,7 +34,21 @@
         
     </form>
     
+    <br><br>
     
+    <h1 class="mb-4">Iniciar sesión</h1>
+    
+    <form action="iniciarSesion.php" method="POST">
+    
+        <label for="nombre"></label>
+        <input class="ml-3" type="text" name="nombreUsuario" id="nombre" size="34" placeholder="Ingresa tu nombre">
+        <br><br>
+        <label for="pass"></label>
+        <input class="ml-3" type="password" name="passUsuario" id="pass" size="34" placeholder="Ingresa tu contraseña">
+        <br><br>
+        <button class="ml-4" type="submit">Iniciar</button>
+        
+    </form>
     
     
     <!-- Optional JavaScript -->
