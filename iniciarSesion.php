@@ -1,5 +1,8 @@
 <?php 
 
+//En todos los archivos que se utilizan sesiones debemos establecer el metodo session_start
+session_start();
+
 //Empezamos capturando los datos del usuario que ingresa en el formulario de iniciar sesion
 $usuarioSesion = $_POST ['nombreUsuario'];
 $passSesion = $_POST ['passUsuario'];
@@ -64,6 +67,8 @@ if(!password_verify($passSesion, $verificacionResult['contrasena'])){
     die();
     
 }
+
+$_SESSION['admin'] = $usuarioSesion;
 
 //Si es usuario es verdadero continua con el codigo y se realiza la verificacion de la contraseña y luego se actualiza con la sesion iniciada
 header('location:sesionIniciada.php');  
